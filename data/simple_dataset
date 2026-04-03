@@ -1,0 +1,23 @@
+[
+  {
+    "email_id": 1,
+    "sender": "boss@company.com",
+    "subject": "Project deadline tomorrow",
+    "body": "Please send the report by 5 PM",
+    "label": "important"
+  },
+  {
+    "email_id": 2,
+    "sender": "newsletter@tech.com",
+    "subject": "Weekly AI News",
+    "body": "Latest updates in AI",
+    "label": "archive"
+  },
+  {
+    "email_id": 3,
+    "sender": "promo@shopping.com",
+    "subject": "70% OFF Sale",
+    "body": "Huge discount on electronics",
+    "label": "delete"
+  }
+]
