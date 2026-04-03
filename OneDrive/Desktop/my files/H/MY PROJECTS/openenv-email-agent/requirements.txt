@@ -1,0 +1,6 @@
+# openenv-email-agent requirements
+openai==1.12.0
+numpy
+pydantic
+gradio
+pytest
