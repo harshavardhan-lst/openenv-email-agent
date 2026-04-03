@@ -1,0 +1,6 @@
+To run the project:
+
+Install dependencies: pip install -r requirements.txt
+Run inference: python inference.py
+Run demo: cd demo && python app.py
+Run tests: pytest tests/
