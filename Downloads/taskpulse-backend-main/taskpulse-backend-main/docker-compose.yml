@@ -1,0 +1,20 @@
+services:
+  mongo:
+    image: mongo:7
+    ports:
+      - "27017:27017"
+    volumes:
+      - taskpulse_mongo_data:/data/db
+
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      MONGODB_URI: mongodb://mongo:27017
+      MONGODB_DB_NAME: taskpulse
+    depends_on:
+      - mongo
+
+volumes:
+  taskpulse_mongo_data:

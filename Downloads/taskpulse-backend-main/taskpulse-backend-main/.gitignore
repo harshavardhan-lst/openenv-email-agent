@@ -1,0 +1,13 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+taskpulse.db
+.env
+rustup-init.exe
+totest.txt
+*.log
+frontend/node_modules/
+taskpulse-frontend/node_modules/
+.DS_Store
+backend/models/*.pkl
